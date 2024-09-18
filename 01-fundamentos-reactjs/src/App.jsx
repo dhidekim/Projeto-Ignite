@@ -1,7 +1,8 @@
-import { Header } from "./components/Header";
+import { Header } from "./components/header";
 import { Post } from "./Post";
 
 import "./styles.css";
+import "./global.css";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         author="Marcelo"
         content="Accusantium distinctio earum illo nam dignissimos reprehenderit temporibus voluptates consequuntur odit velit voluptatem eveniet laborum repellendus labore unde, nemo atque corrupti nulla!"
       />
+      <Post />
     </div>
   );
 }
