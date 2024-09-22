@@ -93,3 +93,8 @@
   content: "\2022";
   padding: 0 0.25rem;
 }
+.comment > img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 8px;
+}
